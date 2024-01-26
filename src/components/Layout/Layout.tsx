@@ -8,8 +8,10 @@ function Layout() {
   return (
     <div>
       <Navbar />
-      <MonitorSection />
-      <Outlet />
+      <div style={{ display: "flex" }}>
+        <MonitorSection />
+        <Outlet />
+      </div>
     </div>
   );
 }
