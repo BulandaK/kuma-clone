@@ -1,0 +1,17 @@
+.monitor-section-container {
+  width: 28vw;
+  height: 90vh;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  margin-top: 2vh;
+  /* background-color: aquamarine; */
+}
+
+.process-container {
+  height: 71vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0d1117;
+  border-radius: 0 0 15px 15px;
+}
