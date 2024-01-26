@@ -1,6 +1,5 @@
 import { FC } from "react";
 import "./MonitorSection.css";
-import { Box, Link, Typography } from "@mui/material";
 import AddNewMonitorButton from "./AddNewMonitorButton/AddNewMonitorButton";
 import SelectProcess from "./SelectProcess/SelectProcess";
 import ProcessTile from "./ProcessTile/ProcessTile";
@@ -16,7 +15,7 @@ const dummyData = [
   { procent: 100, name: "abb hub" },
 ];
 
-const MonitorSection: FC<MonitorSectionProps> = ({}) => {
+const MonitorSection: FC<MonitorSectionProps> = () => {
   return (
     <div className="monitor-section-container">
       <AddNewMonitorButton />

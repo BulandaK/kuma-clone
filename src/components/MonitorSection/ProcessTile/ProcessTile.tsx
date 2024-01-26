@@ -1,6 +1,5 @@
 import { Box } from "@mui/material";
 import { FC } from "react";
-import LinearProgress from "@mui/material/LinearProgress";
 import "./ProcessTile.css";
 import { Link } from "react-router-dom";
 

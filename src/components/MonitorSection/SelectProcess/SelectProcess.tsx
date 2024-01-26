@@ -1,5 +1,5 @@
-import { FC, useState } from "react";
-import { Box, OutlinedInput, Chip, Button } from "@mui/material";
+import { FC } from "react";
+import { Box, Chip, Button } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import MenuIcon from "@mui/icons-material/Menu";
 import "./SelectProcess.css";
@@ -9,17 +9,7 @@ interface ISelectApp {
   // Props definition goes here
 }
 
-const chipStyle = {
-  color: "white",
-  backgroundColor: "black",
-  borderColor: "black",
-  margin: "10px",
-};
-const SelectProcess: FC<ISelectApp> = (
-  {
-    /* destructure props here */
-  }
-) => {
+const SelectProcess: FC<ISelectApp> = () => {
   const handleClick = () => {};
 
   return (
