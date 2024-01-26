@@ -1,5 +1,5 @@
 .dashboard-container {
-  width: 65vw;
+  width: 63.5vw;
 
   /* background-color: aliceblue; */
 }
@@ -9,4 +9,11 @@
   line-height: 8vh;
   margin: 0;
   padding: 0;
+}
+.dashboard-processes-container {
+  width: 100%;
+  height: 100vh;
+  margin-top: 2vh;
+  border-radius: 10px;
+  background-color: #0d1117;
 }
