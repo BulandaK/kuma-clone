@@ -1,7 +1,12 @@
 .dashboard-container {
   width: 65vw;
+
   /* background-color: aliceblue; */
 }
 .dashboard-container > h1 {
+  height: 8vh;
   color: #b1b8c0;
+  line-height: 8vh;
+  margin: 0;
+  padding: 0;
 }
