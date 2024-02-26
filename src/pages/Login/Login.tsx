@@ -1,4 +1,5 @@
 import { Button, OutlinedInput, TextField, Typography } from "@mui/material";
+import { GoogleLogin } from "@react-oauth/google";
 import React from "react";
 
 function Login() {
@@ -57,6 +58,16 @@ function Login() {
           },
         }}
       />
+      {/* 
+      google auth sceleton
+      <GoogleLogin
+        onSuccess={(credentialResponse) => {
+          console.log(credentialResponse);
+        }}
+        onError={() => {
+          console.log("Login Failed");
+        }}
+      /> */}
       <Button>
         <Typography color="white">Log in</Typography>
       </Button>
