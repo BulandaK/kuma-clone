@@ -1,4 +1,4 @@
-import { Button, OutlinedInput, TextField } from "@mui/material";
+import { Button, OutlinedInput, TextField, Typography } from "@mui/material";
 import React from "react";
 
 function Login() {
@@ -57,7 +57,9 @@ function Login() {
           },
         }}
       />
-      <Button>Log in</Button>
+      <Button>
+        <Typography color="white">Log in</Typography>
+      </Button>
     </div>
   );
 }
